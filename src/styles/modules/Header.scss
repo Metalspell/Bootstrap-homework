@@ -1,0 +1,56 @@
+.Header {
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	background-color: #ffffff;
+
+	&-navbar {
+		display: flex;
+		background: #ffffff;
+		height: 200px;
+		justify-content: flex-end;
+		color: black;
+	}
+
+	&-slider {
+		display: flex;
+		justify-content: center;
+		width: 100%;
+
+		&-carousel {
+			width: 100%;
+		}
+	}
+
+	&-welcome {
+		display: flex;
+		height: auto;
+		margin-top: 40px;
+		margin-bottom: 40px;
+		white-space: pre;
+		padding: 0px;
+		
+
+		&-txt {
+			display: flex;
+			height: 200px;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		p {
+			font-size: 150%;
+			text-align: center;
+			font-weight: 800;
+			height: auto;
+		}
+
+		span {
+			background-color: black;
+			color: white;
+		}
+	}
+}

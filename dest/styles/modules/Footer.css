@@ -1,0 +1,27 @@
+.Footer {
+  margin-top: 40px; }
+  .Footer-copyright {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; }
+    .Footer-copyright-text {
+      width: auto;
+      color: lightgray;
+      font-size: 12px; }
+  .Footer-socialNets {
+    display: flex;
+    justify-content: flex-end; }
+    .Footer-socialNets .socialnets {
+      margin: 0px 5px 0px 5px; }
+  .Footer .button-block {
+    overflow: hidden;
+    display: flex;
+    justify-content: center !important; }
+    .Footer .button-block .Button {
+      border-radius: 50% 50% 0 0 / 100% 100% 0 0;
+      width: 50px;
+      height: 25px;
+      background: black;
+      color: white;
+      border: 0px; }

@@ -1,0 +1,60 @@
+@import "variables";
+
+.flickr-gallery-container {
+	display: flex;
+	width: 100%;
+	height: 100%;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: space-around;
+}
+
+.flickr-gallery-block:nth-child(1) {
+	background: $child1;
+}
+
+.flickr-gallery-block:nth-child(2) {
+	background: $child2;
+}
+
+.flickr-gallery-block:nth-child(3) {
+	background: $child3;
+}
+
+.flickr-gallery-block:nth-child(4) {
+	background: $child4;
+}
+
+.flickr-gallery-block2:nth-child(1) {
+	background: $child5;
+}
+
+.flickr-gallery-block2:nth-child(2) {
+	background: $child6;
+}
+
+.flickr-gallery-block2:nth-child(3) {
+	background: $child7;
+}
+
+.flickr-gallery-block2:nth-child(4) {
+	background: $child8;
+}
+
+.flickr-gallery-block:nth-child(1),
+.flickr-gallery-block:nth-child(2),
+.flickr-gallery-block:nth-child(3),
+.flickr-gallery-block:nth-child(4) {
+	width: 30px;
+	height: 50px;
+	margin: 0px 10px 5px 10px;
+}
+
+.flickr-gallery-block2:nth-child(1),
+.flickr-gallery-block2:nth-child(2),
+.flickr-gallery-block2:nth-child(3),
+.flickr-gallery-block2:nth-child(4) {
+	width: 30px;
+	height: 50px;
+	margin: 5px 10px 0px 10px;
+}

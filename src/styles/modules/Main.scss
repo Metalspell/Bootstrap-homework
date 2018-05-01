@@ -1,0 +1,50 @@
+.Main {
+	border-top: 1px solid #ccc;
+	height: auto;
+
+	&-content-ourWorks {
+		border-top: 1px solid #ccc;
+	}
+
+	&-content-ourWorks {
+		border-bottom: 1px solid #ccc;
+		padding-bottom: 40px;
+	}
+
+	&-content-aboutUs2 {
+		margin-top: 40px;
+	}
+
+	&-content-ourWorks,
+	&-content-aboutUs,
+	&-content-aboutUs2 {
+		margin-top: 40px;
+
+		p {
+			width: 90%;
+			height: auto;
+			color: black;
+			font-size: 12px;
+		}
+
+		span {
+			font-size: 20px;
+			background-color: black;
+			color: white;
+		}
+	}
+}
+
+.aboutus-infoblock {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.aboutus-maintext {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+

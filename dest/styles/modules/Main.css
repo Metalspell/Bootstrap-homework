@@ -1,0 +1,32 @@
+.Main {
+  border-top: 1px solid #ccc;
+  height: auto; }
+  .Main-content-ourWorks {
+    border-top: 1px solid #ccc; }
+  .Main-content-ourWorks {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 40px; }
+  .Main-content-aboutUs2 {
+    margin-top: 40px; }
+  .Main-content-ourWorks, .Main-content-aboutUs, .Main-content-aboutUs2 {
+    margin-top: 40px; }
+    .Main-content-ourWorks p, .Main-content-aboutUs p, .Main-content-aboutUs2 p {
+      width: 90%;
+      height: auto;
+      color: black;
+      font-size: 12px; }
+    .Main-content-ourWorks span, .Main-content-aboutUs span, .Main-content-aboutUs2 span {
+      font-size: 20px;
+      background-color: black;
+      color: white; }
+
+.aboutus-infoblock {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center; }
+
+.aboutus-maintext {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; }
